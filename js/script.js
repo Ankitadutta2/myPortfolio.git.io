@@ -25,8 +25,9 @@ $("[data-fancybox]").fancybox();
 			easing: 'linear',
 			queue: false
 		}
-	})
-$("#filters a").click(function() {
+	});
+
+	$("#filters a").click(function() {
 
 		$("#filters .current").removeClass("current");
 		$(this).addClass("current");
@@ -44,3 +45,4 @@ $("#filters a").click(function() {
 
 		return false;
 	});
+
