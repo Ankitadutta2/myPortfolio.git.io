@@ -81,34 +81,43 @@
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
 			<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
+body {margin:0;}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
-li {
-    float: left;
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
 
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+.navbar a:hover {
+  background: #ddd;
+  color: black;
 }
 
-li a:hover {
-    background-color: #111;
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; /* Used in this example to enable scrolling */
 }
 </style>
 </head>
-<body>
-                <div class="collapse navbar-collapse" id="loso-navbar-collapse-1">
+
+
+                <div class="navbar" id="loso-navbar-collapse-1">
                   <ul class="nav navbar-nav navbar-right">
                         <li><a href="#HOME" class="nav-item">HOME</a></li>
                         <li><a href="#ABOUT" class="nav-item">ABOUT</a></li>
