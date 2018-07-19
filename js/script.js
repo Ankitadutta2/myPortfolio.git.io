@@ -30,3 +30,4 @@ $("[data-fancybox]").fancybox();
 		return false;
 	});
 
+
