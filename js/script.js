@@ -1,21 +1,3 @@
-$(document).ready(function() {
-
-	$('#slides').superslides({
-		animation: 'fade',
-		play: 5000,
-		pagination: false
-	});
-
-});
-var typed = new Typed(".typed", {
-		strings: ["UX Researcher.", "Data Analyst.", "Business Analyst."],
-		typeSpeed: 70,
-		loop: true,
-		startDelay: 1000,
-		showCursor: false
-	});
-
-});
 $("[data-fancybox]").fancybox();
 
 
@@ -46,7 +28,10 @@ $("[data-fancybox]").fancybox();
 
 		return false;
 	});
-$("#navigation li a").click(function(e) {
+
+
+
+	$("#navigation li a").click(function(e) {
 		e.preventDefault();
 
 		var targetElement = $(this).attr("href");
@@ -54,6 +39,9 @@ $("#navigation li a").click(function(e) {
 		$("html, body").animate({ scrollTop: targetPosition - 50 }, "slow");
 
 	});
+
+
+
 
 
 
