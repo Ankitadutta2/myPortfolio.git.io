@@ -51,7 +51,7 @@ p {
 /* =========== Navigation ============ */
 
 .navbar-default {
-    background-color: transparent;
+    background-color: black;
     border-color: #444;
     z-index: 110;
     transition: all 1s;
